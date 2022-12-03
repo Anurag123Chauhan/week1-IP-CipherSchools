@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+/* id selector */
+#para {
+    color: blueviolet;
+}
+#name,#email,#password{
+    color: bisque;
+}
+#anu{
+    color: rgb(67, 0, 130);
+}
+/* class selector */
+.fun{
+    color: aquamarine;
+}
+
