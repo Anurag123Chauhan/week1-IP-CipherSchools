@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+<body >
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse omnis id eos doloribus qui, quisquam repudiandae? Deserunt, hic. Voluptas mollitia perferendis veritatis, animi illum commodi ipsam odit culpa tenetur dolorem.</p>
+    <p class="fun">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, magni accusamus fuga vitae ab temporibus, odit alias mollitia natus, pariatur delectus commodi nobis illum quas. Expedita rerum omnis illum tempore!</p>
+    <form id="anu">
+        <!-- Collect information / data from the user -->
+        <!-- <label>Username - </label> -->
+        <lable for="name">Name:</lable><br>
+        <input id="name"  name="user-name"  type="text" placeholder="enter you username..." /> <br /> <br />
+        <!--The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.-->
+        <!-- <label>User Email - </label> -->
+        <lable for="email">Email:</lable>
+        <input id="email" name="user-email" type="email" placeholder="enter your email..." /> <br /> <br />
+
+        <!-- <label>User Password - </label> -->
+        <lable for="password">Password:</lable>
+        <input id="password" name="user-password" type="password" placeholder="enter your password..." /> <br /> <br />
+
+        <label>User DOB - </label>
+        <input id="dob" name="user-dob" type="date" /> <br /> <br />
+
+        <label>User Portfolio - </label>
+        <input name="user-file" type="file" /> <br /> <br />
+        <!--select type -->
+        <label>User Gender - </label>
+        <select id="gender">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select> <br /> <br />
+        <!--radio type options-->
+        <input id ="male" type="radio" > Male <br />
+        <input  type="radio" > Female <br />
+        <input  type="radio" > Others <br />
+
+        <label>Fav Color - </label>
+        <input id="color" type="color" > <br /> <br />
+        <!--submit  kese type hoga...value se kuch bhe likh sakte he button pe-->
+        <input id="submit-btn" type="submit" value="paka na" /><br/> <br/> 
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+
+    </form>
+    <lable for ="asd">I don't know</lable>
+    <input id ="asd" type="text" placeholder="select"><br/><br/>
+    <button>click me</button>
+</body>
+</html>
